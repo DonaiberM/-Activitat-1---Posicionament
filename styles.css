@@ -1,0 +1,34 @@
+/*ESTILS INDEX.HTML*/
+
+/*BODY*/
+/*HEADER*/
+header#section_header {
+    /*background-color: #ACC4FF;*/
+    font-family: Helvetica;
+}
+
+/*MENU_NAVEGACIÓ*/
+    /*CAJA_ENCABEZADO*/
+    div#caja_links_encabezado {
+        text-align: center;
+        /*background-color:#C4FFAC;*/
+        padding:10px;
+        margin:0px;
+    }
+
+    /*ESTILS TITOL_YAKUZAS*/
+    h1#titulo_encabezado_yakuzas{
+        color: #2B0054;
+        /*border: 1px solid black;*/
+        text-align:center;
+    }
+
+    /*ESTILS CONJUNT GRUP DIV_ENCABEZADO*/
+    div.div_menu_opcions {
+        font-weight: bold;
+        /*border:1px solid black;*/
+        display:inline-block;
+        padding: 0px;
+        margin:0% 5%;
+    }
+
