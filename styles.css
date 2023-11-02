@@ -32,3 +32,11 @@ header#section_header {
         margin:0% 5%;
     }
 
+    /*ESTIL FOOTER_YAKUZAS*/
+    h6#footer_titol_my_website {
+        font-family:Helvetica;
+        text-align:center;
+        padding:0px;
+        margin:0xp;
+    }
+
