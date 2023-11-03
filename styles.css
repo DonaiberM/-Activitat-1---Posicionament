@@ -1,42 +1,86 @@
 /*ESTILS INDEX.HTML*/
 
 /*BODY*/
+body {
+    background-color: #DED2C5;
+    padding: 0px;
+    margin: 0px;
+}
 /*HEADER*/
 header#section_header {
-    /*background-color: #ACC4FF;*/
-    font-family: Helvetica;
-}
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #6B4138;
+    padding: 1vh 30vw 1vh 30vw;
+    margin-top: -1vh;
+    font-family: Candara;
+    }
+
+
 
 /*MENU_NAVEGACIÓ*/
     /*CAJA_ENCABEZADO*/
-    div#caja_links_encabezado {
+    /*div#caja_links_encabezado {
         text-align: center;
-        /*background-color:#C4FFAC;*/
-        padding:10px;
-        margin:0px;
+        background-color:#14130E;
+        padding: 0vh 20vw 0vh 20vw;
+    }*/
+    nav{
+        background-color: #14130E;
+        position: sticky;
+        top: 50px;
+    }
+    a {
+    color: #ffffff;
     }
 
     /*ESTILS TITOL_YAKUZAS*/
     h1#titulo_encabezado_yakuzas{
-        color: #2B0054;
-        /*border: 1px solid black;*/
+        color: #D42607;
         text-align:center;
+        /*border: 1px solid black;*/
     }
 
     /*ESTILS CONJUNT GRUP DIV_ENCABEZADO*/
     div.div_menu_opcions {
         font-weight: bold;
-        /*border:1px solid black;*/
         display:inline-block;
         padding: 0px;
         margin:0% 5%;
+        color: #14130E;
+        /*border:1px solid black;*/
     }
 
     /*ESTIL FOOTER_YAKUZAS*/
     h6#footer_titol_my_website {
         font-family:Helvetica;
         text-align:center;
-        padding:0px;
-        margin:0xp;
-    }
+        padding:10px 0px 10px 0px;
+        margin-left: -2vh;
+        margin-right: -2vw;
+        margin-bottom: -3vw;
+        background-color: #6B4138;
+        color: #ffffff;
+        }
 
+    #primera_section {
+    padding: 1vh 5vh 1vh 5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: #D5A08B;
+    }
+    #segona_section {
+    padding: 1vh 5vh 1vh 5vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    background-color: #D5A08B;
+    }
+    #tercera_section {
+    padding: 1vh 5vh 1vh 5vh;
+    margin-top: 2vh;
+    background-color: #D5A08B;
+    }
+    main {
+    margin: 40vh 2vw 3vh 2vw;
+    }
