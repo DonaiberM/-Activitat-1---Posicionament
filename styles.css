@@ -12,10 +12,12 @@ header#section_header {
     top: 0px;
     left: 0px;
     background-color: #6B4138;
-    padding: 1vh 40vw 1vh 40vw;
+    padding: 1vh 30vw 1vh 30vw;
     margin-top: -1vh;
     font-family: Candara;
     }
+
+
 
 /*MENU_NAVEGACIÓ*/
     /*CAJA_ENCABEZADO*/
@@ -25,14 +27,9 @@ header#section_header {
         padding: 0vh 20vw 0vh 20vw;
     }*/
     nav{
+        background-color: #14130E;
         position: sticky;
-        top: 15vh;
-        background-color: #B8623B;
-        padding: 10px;
-        font-size: 15px;
-        color: #ffffff;
-        font-family: Candara;
-        text-align: center;
+        top: 50px;
     }
     a {
     color: #ffffff;
@@ -85,5 +82,5 @@ header#section_header {
     background-color: #D5A08B;
     }
     main {
-    margin: 20vh 2vw 3vh 2vw;
+    margin: 40vh 2vw 3vh 2vw;
     }
