@@ -8,13 +8,14 @@ body {
 }
 /*HEADER*/
 header#section_header {
-    position: fixed;
     top: 0px;
     left: 0px;
     background-color: #6B4138;
     padding: 1vh 30vw 1vh 30vw;
     margin-top: -1vh;
     font-family: Candara;
+    width:45%;
+    text-align:center;
     }
 
 
@@ -33,6 +34,7 @@ header#section_header {
     }
     a {
     color: #ffffff;
+    text-decoration:none;
     }
 
     /*ESTILS TITOL_YAKUZAS*/
@@ -64,23 +66,28 @@ header#section_header {
         color: #ffffff;
         }
 
+    /*ESTIL DE CADA SECCIÓ*/
     #primera_section {
     padding: 1vh 5vh 1vh 5vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
     background-color: #D5A08B;
+    width:100%;
     }
     #segona_section {
     padding: 1vh 5vh 1vh 5vh;
     margin-top: 2vh;
     margin-bottom: 1vh;
     background-color: #D5A08B;
+    width:100%;
     }
     #tercera_section {
     padding: 1vh 5vh 1vh 5vh;
     margin-top: 2vh;
     background-color: #D5A08B;
+    width:100%;
     }
     main {
     margin: 40vh 2vw 3vh 2vw;
+    text-align:center;
     }
